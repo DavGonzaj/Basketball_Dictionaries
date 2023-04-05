@@ -14,7 +14,7 @@ class Player:
     
     def __repr__(self):
         display = f"Player: {self.name}, {self.age} y/o, pos: {self.position}, team: {self.team}"
-        return display
+        return display  
 
 
 kevin = {
@@ -29,6 +29,7 @@ jason = {
         "position": "small forward", 
         "team": "Boston Celtics"
 }
+
 kyrie = {
         "name": "Kyrie Irving", 
         "age":32, "position": "Point Guard", 
